@@ -1,0 +1,43 @@
+body{
+    background: rgba(1, 1, 248, 0.673)
+}
+
+header{
+    font:normal 60px Arial;
+    text-align: center;
+    color: white;
+}
+
+section{
+    font: normal  Arial;
+    margin: auto;
+    height: 400px;
+    width: 500px;
+    padding: 15px;
+    background: linear-gradient(rgb(225, 225, 225),white);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+div{
+    text-align: center;
+    padding: 8px;
+}
+
+.msg{  
+    font-size: 40px;
+}
+
+img{ 
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin:50px;
+}
+
+footer{
+    font: normal 40px Arial;
+    text-align: center;
+    font-style:italic;
+    color: white;
+}
