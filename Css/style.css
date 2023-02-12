@@ -3,6 +3,7 @@ body{
 }
 
 header{
+    padding: 7px;
     font:normal 60px Arial;
     text-align: center;
     color: white;

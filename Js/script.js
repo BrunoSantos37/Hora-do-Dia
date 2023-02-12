@@ -8,10 +8,10 @@ let hora = data.getHours();
 msg.innerHTML = `Agora são ${hora} horas!`;
 
     if (hora >= 6 && hora < 12 ){
-        imagem.src = 'fotomanha.jpg';
+        imagem.src = '/imagens/fotomanha.jpg';
     }else if (hora >= 12 && hora <= 18){
-        imagem.src = 'fototarde.jpg';
+        imagem.src = '/imagens/fototarde.jpg';
     }else {
-        imagem.src = 'fotonoite.jpg';
+        imagem.src = '/imagens/fotonoite.jpg';
     }
 }
